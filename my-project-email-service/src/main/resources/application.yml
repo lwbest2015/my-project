@@ -1,0 +1,26 @@
+spring:
+  application:
+    name: email-service
+  mail:
+    host: smtp.qq.com
+    username: 1026222344@qq.com
+    password: iugcqtotcnsrbeib  #李伟
+    default-encoding: utf-8
+#  redis:
+#    host: 192.168.2.159
+#    port: 6379
+#    password: java1908
+#    jedis:
+#      pool:
+#        max-active: 20
+
+server:
+  port: 8763
+
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
+
+activeServerUrl: http://localhost:8763/email/active/account/

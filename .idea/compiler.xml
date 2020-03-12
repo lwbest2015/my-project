@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="my-project-basic" />
+        <module name="my-project-dependencies" />
+        <module name="my-project-email-service" />
+        <module name="my-project-entity" />
+        <module name="my-project-eureka-server" />
+        <module name="my-project-mapper" />
+        <module name="my-project-regist-service" />
+        <module name="my-project-regist-web" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="my-project-basic" target="1.8" />
+      <module name="my-project-common" target="1.8" />
+      <module name="my-project-dependencies" target="1.8" />
+      <module name="my-project-email-service" target="1.8" />
+      <module name="my-project-entity" target="1.8" />
+      <module name="my-project-eureka-server" target="1.8" />
+      <module name="my-project-mapper" target="1.8" />
+      <module name="my-project-regist-service" target="1.8" />
+      <module name="my-project-regist-web" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="my-project-dependencies" options="" />
+      <module name="my-project-email-service" options="" />
+      <module name="my-project-eureka-server" options="" />
+      <module name="my-project-mapper" options="" />
+      <module name="my-project-regist-service" options="" />
+      <module name="my-project-regist-web" options="" />
+    </option>
+  </component>
+</project>
