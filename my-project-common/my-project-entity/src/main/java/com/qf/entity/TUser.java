@@ -3,11 +3,12 @@ package com.qf.entity;
 import java.io.Serializable;
 
 public class TUser implements Serializable {
+
     private Long uid;
 
     private String uname;
 
-    private String password;
+    private String password; 
 
     public Long getUid() {
         return uid;
