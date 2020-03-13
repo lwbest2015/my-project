@@ -6,13 +6,13 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="my-project-email-service" />
+        <module name="my-project-entity" />
+        <module name="my-project-user-interface" />
+        <module name="my-project-user-service" />
         <module name="my-project-eureka-server" />
         <module name="my-project-mapper" />
         <module name="my-project-basic" />
-        <module name="my-project-regist-service" />
-        <module name="my-project-regist-web" />
-        <module name="my-project-entity" />
+        <module name="my-project-sms-server" />
         <module name="my-project-dependencies" />
       </profile>
     </annotationProcessing>
@@ -26,6 +26,12 @@
       <module name="my-project-mapper" target="1.8" />
       <module name="my-project-regist-service" target="1.8" />
       <module name="my-project-regist-web" target="1.8" />
+      <module name="my-project-sms-server" target="1.8" />
+      <module name="my-project-user" target="1.8" />
+      <module name="my-project-user-interface" target="1.8" />
+      <module name="my-project-user-server" target="1.8" />
+      <module name="my-project-user-service" target="1.8" />
+      <module name="untitled" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
@@ -33,9 +39,11 @@
       <module name="my-project-dependencies" options="-parameters" />
       <module name="my-project-email-service" options="-parameters" />
       <module name="my-project-eureka-server" options="-parameters" />
-      <module name="my-project-mapper" options="-parameters" />
+      <module name="my-project-mapper" options="" />
       <module name="my-project-regist-service" options="-parameters" />
       <module name="my-project-regist-web" options="-parameters" />
+      <module name="my-project-sms-server" options="-parameters" />
+      <module name="my-project-user-server" options="-parameters" />
     </option>
   </component>
 </project>

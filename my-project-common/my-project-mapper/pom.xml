@@ -4,22 +4,33 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <parent>
-        <groupId>com.qf</groupId>
-        <artifactId>my-project-dependencies</artifactId>
-        <version>1.0.0-SNAPSHOT</version>
-    </parent>
 
-    <groupId>com.qf</groupId>
+    <groupId>com.qf.mapper</groupId>
     <artifactId>my-project-mapper</artifactId>
     <version>1.0.0-SNAPSHOT</version>
+    <packaging>jar</packaging>
 
     <dependencies>
+
         <dependency>
             <groupId>com.qf</groupId>
             <artifactId>my-project-entity</artifactId>
             <version>1.0.0-SNAPSHOT</version>
         </dependency>
+
+
+        <dependency>
+            <groupId>org.mybatis</groupId>
+            <artifactId>mybatis</artifactId>
+            <version>3.4.6</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.qf</groupId>
+            <artifactId>my-project-basic</artifactId>
+            <version>1.0.0-SNAPSHOT</version>
+        </dependency>
+
 
 
     </dependencies>

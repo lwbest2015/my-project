@@ -1,0 +1,7 @@
+base\IBaseService.class
+base\IBaseDao.class
+com\qf\entity\TProduct.class
+base\BaseServiceImpl.class
+com\qf\entity\TProductType.class
+com\qf\entity\TUser.class
+com\qf\entity\TProductDesc.class

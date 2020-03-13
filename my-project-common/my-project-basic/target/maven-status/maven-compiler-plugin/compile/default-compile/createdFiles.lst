@@ -1,0 +1,16 @@
+com\qf\constant\StringConstant.class
+com\qf\dto\ResultBean.class
+com\qf\dto\TProductAddDTO.class
+com\qf\util\HttpClientUtils.class
+com\qf\base\IBaseDao.class
+com\qf\base\BaseServiceImpl.class
+com\qf\constant\CookieConstant.class
+com\qf\util\SpringSecurityUtil.class
+com\qf\dto\TProductCartDTO.class
+com\qf\constant\RabbitConstant.class
+com\qf\vo\CartItem.class
+com\qf\constant\RedisConstant.class
+com\qf\dto\EmailMessageDTO.class
+com\qf\util\StringUtil.class
+com\qf\base\IBaseService.class
+com\qf\util\RedisUtil.class

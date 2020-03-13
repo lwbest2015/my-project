@@ -67,7 +67,7 @@ public class ResultBean implements Serializable {
      * @param message 具体的信息
      * @return
      */
-    public static ResultBean success(Object data, String message){
+    public static ResultBean success(Object data,String message){
         ResultBean resultBean = new ResultBean();
         resultBean.setErrno(0);
         resultBean.setData(data);

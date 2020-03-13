@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="Maven: com.qf:my-project-entity:1.0.0-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../My_java/repository_boot/com/qf/my-project-entity/1.0.0-SNAPSHOT/my-project-entity-1.0.0-SNAPSHOT.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$PROJECT_DIR$/my-project-common/my-project-entity/my-project-entity-1.0.0-SNAPSHOT-javadoc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../My_java/repository_boot/com/qf/my-project-entity/1.0.0-SNAPSHOT/my-project-entity-1.0.0-SNAPSHOT-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/my-project-common/my-project-entity/my-project-entity-1.0.0-SNAPSHOT-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../My_java/repository_boot/com/qf/my-project-entity/1.0.0-SNAPSHOT/my-project-entity-1.0.0-SNAPSHOT-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
