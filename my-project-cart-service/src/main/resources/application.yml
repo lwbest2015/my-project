@@ -1,0 +1,14 @@
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
+
+server:
+  port: 8765
+spring:
+  application:
+    name: cart-service
+  redis:
+    host: 192.168.71.71
+    port: 6379

@@ -8,6 +8,7 @@ class MyProjectRegistServiceApplicationTests {
 
     @Test
     void contextLoads() {
+        System.out.println((int)((Math.random()+1)*1000));
     }
 
 }

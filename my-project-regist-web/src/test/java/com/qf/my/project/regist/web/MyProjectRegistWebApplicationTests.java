@@ -1,10 +1,14 @@
 package com.qf.my.project.regist.web;
 
+import com.qf.constant.RedisConstant;
+import com.qf.util.RedisUtil;
 import org.junit.jupiter.api.Test;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
+import org.springframework.data.redis.core.StringRedisTemplate;
 
 import java.util.*;
-import java.util.stream.IntStream;
+import java.util.concurrent.TimeUnit;
 
 @SpringBootTest
 class MyProjectRegistWebApplicationTests {
@@ -36,11 +40,13 @@ class MyProjectRegistWebApplicationTests {
         }
     }
 
-
+    @Autowired
+    private StringRedisTemplate redisTemplate;
     @Test
     void contextLoads() {
-        System.out.println(IntStream.range(5, 9).map(a -> a * 10).boxed().filter(a -> a.compareTo(6) > 0).reduce(0, Integer::sum));
-
+        String s="13201605310";
+        System.out.println(RedisUtil.getRedisKey(RedisConstant.REGIST_SMS,s));
+        redisTemplate.opsForValue().set(RedisUtil.getRedisKey(RedisConstant.REGIST_SMS,s),"7788",20, TimeUnit.MINUTES);
     }
 
 }
