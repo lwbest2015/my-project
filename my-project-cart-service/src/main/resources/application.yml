@@ -10,5 +10,5 @@ spring:
   application:
     name: cart-service
   redis:
-    host: 192.168.71.71
+    host: 192.168.98.98
     port: 6379

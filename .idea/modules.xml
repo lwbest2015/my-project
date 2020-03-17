@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/my-project-alipay-sercive/my-project-alipay-sercive.iml" filepath="$PROJECT_DIR$/my-project-alipay-sercive/my-project-alipay-sercive.iml" />
       <module fileurl="file://$PROJECT_DIR$/my-project-common/my-project-basic/my-project-basic.iml" filepath="$PROJECT_DIR$/my-project-common/my-project-basic/my-project-basic.iml" />
+      <module fileurl="file://$PROJECT_DIR$/my-project-cart-service/my-project-cart-service.iml" filepath="$PROJECT_DIR$/my-project-cart-service/my-project-cart-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/my-project-common/my-project-common.iml" filepath="$PROJECT_DIR$/my-project-common/my-project-common.iml" />
       <module fileurl="file://$PROJECT_DIR$/my-project-dependencies/my-project-dependencies.iml" filepath="$PROJECT_DIR$/my-project-dependencies/my-project-dependencies.iml" />
       <module fileurl="file://$PROJECT_DIR$/my-project-email-service/my-project-email-service.iml" filepath="$PROJECT_DIR$/my-project-email-service/my-project-email-service.iml" />
@@ -11,6 +13,7 @@
       <module fileurl="file://$PROJECT_DIR$/my-project-common/my-project-mapper/my-project-mapper.iml" filepath="$PROJECT_DIR$/my-project-common/my-project-mapper/my-project-mapper.iml" />
       <module fileurl="file://$PROJECT_DIR$/my-project-regist-service/my-project-regist-service.iml" filepath="$PROJECT_DIR$/my-project-regist-service/my-project-regist-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/my-project-regist-web/my-project-regist-web.iml" filepath="$PROJECT_DIR$/my-project-regist-web/my-project-regist-web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/my-project-sms-service/my-project-sms-service.iml" filepath="$PROJECT_DIR$/my-project-sms-service/my-project-sms-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/my-project-v1.iml" filepath="$PROJECT_DIR$/.idea/my-project-v1.iml" />
     </modules>
   </component>

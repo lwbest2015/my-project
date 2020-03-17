@@ -2,9 +2,9 @@ spring:
   application:
     name: regist-web
   redis:
-    host: 192.168.71.71
+    host: 192.168.98.98
     port: 6379
-    password:
+    password: redis
     jedis:
       pool:
         max-active: 20

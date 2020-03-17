@@ -2,12 +2,13 @@ spring:
   application:
     name: regist-service
   datasource:
-    url: jdbc:mysql://localhost:3306/qf-v6?useUnicode=true&characterEncoding=utf-8&useSSL=false&serverTimezone=Asia/Shanghai
+    url: jdbc:mysql://192.168.98.98:3306/qf-v6?useUnicode=true&characterEncoding=utf-8&useSSL=false&serverTimezone=Asia/Shanghai
     username: root
-    password:
+    password: root
   redis:
     port: 6379
-    host: 192.168.71.71
+    host: 192.168.98.98
+    password: redis
 
 server:
   port: 8762

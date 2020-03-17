@@ -12,4 +12,5 @@ public interface IRegistService {
     public void insertUserByPhone(String phone,String password);
 
     boolean isTure(String phone,String password);
+
 }

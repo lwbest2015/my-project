@@ -6,18 +6,23 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="my-project-basic" />
-        <module name="my-project-dependencies" />
         <module name="my-project-email-service" />
-        <module name="my-project-entity" />
+        <module name="my-project-regist-web" />
+        <module name="my-project-sms-service" />
         <module name="my-project-eureka-server" />
         <module name="my-project-mapper" />
+        <module name="my-project-alipay-sercive" />
+        <module name="my-project-basic" />
+        <module name="my-project-cart-service" />
         <module name="my-project-regist-service" />
-        <module name="my-project-regist-web" />
+        <module name="my-project-entity" />
+        <module name="my-project-dependencies" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="my-project-alipay-sercive" target="1.8" />
       <module name="my-project-basic" target="1.8" />
+      <module name="my-project-cart-service" target="1.8" />
       <module name="my-project-common" target="1.8" />
       <module name="my-project-dependencies" target="1.8" />
       <module name="my-project-email-service" target="1.8" />
@@ -26,16 +31,20 @@
       <module name="my-project-mapper" target="1.8" />
       <module name="my-project-regist-service" target="1.8" />
       <module name="my-project-regist-web" target="1.8" />
+      <module name="my-project-sms-service" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="my-project-dependencies" options="" />
-      <module name="my-project-email-service" options="" />
-      <module name="my-project-eureka-server" options="" />
-      <module name="my-project-mapper" options="" />
-      <module name="my-project-regist-service" options="" />
-      <module name="my-project-regist-web" options="" />
+      <module name="my-project-alipay-sercive" options="-parameters" />
+      <module name="my-project-cart-service" options="-parameters" />
+      <module name="my-project-dependencies" options="-parameters" />
+      <module name="my-project-email-service" options="-parameters" />
+      <module name="my-project-eureka-server" options="-parameters" />
+      <module name="my-project-mapper" options="-parameters" />
+      <module name="my-project-regist-service" options="-parameters" />
+      <module name="my-project-regist-web" options="-parameters" />
+      <module name="my-project-sms-service" options="-parameters" />
     </option>
   </component>
 </project>
