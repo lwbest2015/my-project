@@ -18,6 +18,7 @@
         <option value="$PROJECT_DIR$/my-project-common/my-project-entity/pom.xml" />
         <option value="$PROJECT_DIR$/my-project-common/my-project-mapper/pom.xml" />
         <option value="$PROJECT_DIR$/my-project-alipay-sercive/pom.xml" />
+        <option value="$PROJECT_DIR$/my-project-order-service/pom.xml" />
       </list>
     </option>
   </component>

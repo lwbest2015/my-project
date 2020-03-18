@@ -16,6 +16,9 @@
     <version>1.0.0-SNAPSHOT</version>
 
 
+
+
+
     <properties>
         <java.version>1.8</java.version>
         <spring-cloud.version>Hoxton.RELEASE</spring-cloud.version>
